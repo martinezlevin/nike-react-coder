@@ -65,3 +65,7 @@
   color: #000;
 }
 
+.card-container:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}

@@ -1,0 +1,74 @@
+.counter-total {
+    justify-content:center;
+    margin-bottom: 30px;
+    width: fit-content;
+    display:inline-block
+}
+
+.counter-arriba {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numerocounter {
+  font-family: Arial;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  background-color: #8a8989;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 0px;
+}
+
+.btn-agregar-al-carrito{
+  font-family: Arial;
+  font-size: 22px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  background-color: #8a8989;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+
+  .btn-agregar:hover {
+    background: #323333;
+  }
+
+  .btn-masmenos {
+    margin-top: 0px;
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    text-decoration: none;
+    border: none;
+    background: #000000;
+    display: inline-block;
+    background-color: #8a8989;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 100px;
+    text-decoration: none;
+  }
+  .btn-masmenos:hover {
+    background: #000000;
+    color: #8a8989;
+  }

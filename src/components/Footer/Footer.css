@@ -1,0 +1,18 @@
+.footer {
+    height: 50px;
+    background-color: rgb(229, 229, 235);
+    margin-top: 50px;
+  }
+    
+  .footer-container {
+    display: flex;
+    max-width: 1000px; 
+    margin: 0 auto;
+    justify-content: center;
+    padding: auto;
+  }
+
+  .list {
+    margin-top: -8px;
+  }
+

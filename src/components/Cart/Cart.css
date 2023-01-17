@@ -1,0 +1,33 @@
+.boton-carrito {
+    color: #000000;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    text-decoration: none;
+    border: none;
+    background: #f1eeee;
+    display: inline-block;
+    background-color: #8a8989;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.nada-carrito {
+    font-size: 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.dos {
+    margin-right: 50px;
+    margin-left: 50px;
+}

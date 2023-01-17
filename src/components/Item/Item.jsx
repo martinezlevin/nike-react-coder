@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Item.css";
 
-const Item = ({ id, name, image, description }) => {
+const Item = ({ id, name, img, description }) => {
   return (
     <div className="section-container">
       <div className="card-container">
         <div className="card">
-          <img className="card-img-top" src={image} alt={name} />
+          <img className="card-img-top" src={img} alt={name} />
           <div className="card-body">
             <h3 className="card-title">{name}</h3>
             <p className="card-text">{description}</p>

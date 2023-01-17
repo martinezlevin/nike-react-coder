@@ -3,9 +3,9 @@
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 10px;
     box-sizing: border-box;
+    border-radius: 40px;
+    border: 1px #fff;
   }
   
   .btn-agregar {
@@ -17,21 +17,16 @@
     padding-bottom: 5px;
     padding-left: 30px;
     text-decoration: none;
-    text-shadow: 0px 0px 0px #000;
-    border: 2px solid #8a8989;
-    background: #8a8989;
+    background: #000;
     display: inline-block;
-    background-color: #8a8989;
-    border-radius: 10px;
-    text-decoration: none;
+    background-color: #fff;
   }
   .btn-agregar:hover {
-    background: #acacac;
+    background: #acacacc7;
+    color: #fff;
   }
   
   .div-container {
-    border-radius: 5px;
-    background-color:#ffffff;
     padding: 20px;
   }
 
@@ -44,10 +39,12 @@
   }
 
  .h2-form {
-    border: 2px solid rgb(19, 21, 39);
-    background-color: #8a8989;
     margin-left: 170px;
     margin-right: 170px;
-    border-radius: 10px;
-    color: #000;
+    color: #fff;
   }
+
+  label {
+    color: #fff;
+  }
+

@@ -60,5 +60,8 @@
     text-decoration: none;
   }
 
-
+.btn-ver-producto:hover {
+  background-color: #afafaf9d;
+  color: #000;
+}
 

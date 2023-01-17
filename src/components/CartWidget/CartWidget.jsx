@@ -12,7 +12,7 @@ const CartWidget = () => {
   
   return (
    <Link to='/cart' className="cart-container">
-      <span className="material-icons"><img onMouseOver="showCart(this)" class="cart mt-2" src="cart.png" alt="cart"></img></span>
+      <span className="material-icons"><img onMouseOver="showCart(this)" class="cart mt-2" src="https://res.cloudinary.com/duqi08ihm/image/upload/v1673938916/cart_zlkrf6.png" alt="icono del carrito"></img></span>
       <p className="cart-number">{ quantity }</p>
     </Link>
   );

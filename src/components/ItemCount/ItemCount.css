@@ -2,7 +2,7 @@
     justify-content:center;
     margin-top: 15rem;
     width: fit-content;
-    display:inline-block
+    display:inline-block;
 }
 
 .counter-arriba {
@@ -20,7 +20,7 @@
   text-decoration: none;
   border: none;
   display: inline-block;
-  background-color: #8a8989;
+  background-color: #fff;
   color: rgb(0, 0, 0);
   border: none;
   border-radius: 25px;
@@ -38,17 +38,17 @@
   text-decoration: none;
   border: none;
   display: inline-block;
-  background-color: #8a8989;
+  background-color: #fff;
   color: rgb(0, 0, 0);
   border: none;
   border-radius: 25px;
   text-decoration: none;
 }
 
-
-  .btn-agregar:hover {
-    background: #323333;
-  }
+.btn-agregar-al-carrito:hover{
+  background-color: #afafaf9d;
+  color: #ffffff;
+}
 
   .btn-masmenos {
     margin-top: 0px;
@@ -62,13 +62,14 @@
     border: none;
     background: #000000;
     display: inline-block;
-    background-color: #8a8989;
+    background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 100px;
     text-decoration: none;
   }
+
   .btn-masmenos:hover {
-    background: #000000;
-    color: #8a8989;
+    background-color: #afafaf9d;
+    color: #ffffff;
   }

@@ -22,11 +22,11 @@ const Cart = () => {
 
   return (
     <div>
-      <h1>Carrito de Compras</h1>
+      <h1 className="tituloColor">Carrito de Compras</h1>
       {cart.map((p) => (
         <CartItem key={p.id} {...p} />
       ))}
-      <h3>Total: ${total}</h3>
+      <h3 className="totalColor">Total: ${total}</h3>
       <Link to="/checkout" className="boton-carrito uno">
         Finalizar compra
       </Link>

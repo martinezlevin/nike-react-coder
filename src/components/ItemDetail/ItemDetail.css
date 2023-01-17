@@ -5,8 +5,8 @@
 
   .btn-finalizar-compra {
     font-size: 1.2rem;
-    border-radius: 20px;
-    background-color: #8a8989;
+    border-radius: 0px;
+    background-color: #fff;
     color: rgb(0, 0, 0);
   }
 
@@ -20,7 +20,7 @@
     text-decoration: none;
     border: none;
     display: inline-block;    
-    background-color: #8a8989;
+    background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 25px;
@@ -37,7 +37,7 @@
     text-decoration: none;
     border: none;
     display: inline-block;
-    background-color: #8a8989;
+    background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 25px;
@@ -54,7 +54,7 @@
     text-decoration: none;
     border: none;
     display: inline-block;
-    background-color: #8a8989;
+    background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 25px;
@@ -67,3 +67,14 @@
   .botones {
     margin-top: 15rem;
   }
+
+  .btn-agregar-carrito:hover {
+    background-color: #afafaf9d;
+    color: #ffffff;
+  }
+
+  .btn-agregar-volver:hover {
+    background-color: #afafaf9d;
+    color: #ffffff;
+  }
+

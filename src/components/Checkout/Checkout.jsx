@@ -91,13 +91,13 @@ const Checkout = () => {
   if (isLoading) {
     return (
       <>
-        <BeatLoader color="#0a06e2" size={30} />
+        <BeatLoader color="#e8ebf3" size={50} />
       </>
     );
   }
 
   if (newOrder) {
-    return <h2>¡Orden satisfactoriamente creada!</h2>;
+    return <h2 className="h2">¡Orden satisfactoriamente creada!</h2>;
   }
 
   return (

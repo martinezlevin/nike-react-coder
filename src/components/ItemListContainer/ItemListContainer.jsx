@@ -22,14 +22,14 @@ const ItemListContainer = ({ saludo }) => {
   }
 
   if (error) {
-    return <h1>Hubo un error</h1>;
+    return <h1 className="h1">Hubo un error</h1>;
   }
 
   if (data.length === 0) {
     return categoryId ? (
-      <h1>No hay productos en la categoría {categoryId}</h1>
+      <h1 className="h1">No hay productos en la categoría {categoryId}</h1>
     ) : (
-      <h1>No hay productos disponibles</h1>
+      <h1 className="h1">No hay productos disponibles</h1>
     );
   }
 

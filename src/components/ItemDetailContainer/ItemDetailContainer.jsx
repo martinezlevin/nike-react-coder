@@ -29,7 +29,7 @@ const ItemDetailContainer = () => {
   if (loading) {
     return (
       <>
-        <BeatLoader color="#0a06e2" size={30} />
+        <BeatLoader color="#e8ebf3" size={50} />
       </>
     );
   }

@@ -9,7 +9,7 @@
     border: none;
     background: #f1eeee;
     display: inline-block;
-    background-color: #8a8989;
+    background-color: #fff;
     border: none;
     border-radius: 30px;
     text-decoration: none;
@@ -17,6 +17,7 @@
 
 .nada-carrito {
     font-size: 15px;
+    color: #fff;
 }
 
 p {
@@ -31,3 +32,17 @@ h1 {
     margin-right: 50px;
     margin-left: 50px;
 }
+
+.totalColor {
+    color:#fff
+}
+
+.tituloColor {
+    color:#fff
+}
+
+.boton-carrito:hover {
+    background-color: #afafaf9d;
+    color: #ffffff;
+}
+

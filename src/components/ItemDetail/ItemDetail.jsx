@@ -4,7 +4,7 @@ import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import CartContext from "../../Context/CartContext";
 
-const Item = ({ id, name, image, description, price, stock }) => {
+const Item = ({ id, name, img, description, price, stock }) => {
   const [quantityToAdd, setQuantityToAdd] = useState(0);
 
   const { addItem, getProductQuantity } = useContext(CartContext);
@@ -22,7 +22,7 @@ const Item = ({ id, name, image, description, price, stock }) => {
     <div className="section-container">
       <div className="card-container">
         <div className="card">
-          <img className="card-img-top" src={image} alt={name} />
+          <img className="card-img-top" src={img} alt={name} />
           <div className="card-body">
             <h3 className="card-title">{name}</h3>
             <p className="card-text">{description}</p>
@@ -38,7 +38,7 @@ const Item = ({ id, name, image, description, price, stock }) => {
             initial={productQuantity}
           />
         ) : (
-          <div>
+          <div className="botones">
             <div>
               <Link to="/cart" className="btn-agregar-carrito">
                 Ver Carrito

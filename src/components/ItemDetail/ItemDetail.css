@@ -29,24 +29,24 @@
   
   .btn-agregar-carrito {
     font-family: Arial;
-    font-size: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    font-size: 22px;
     padding-top: 5px;
     padding-right: 30px;
     padding-bottom: 5px;
     padding-left: 30px;
     text-decoration: none;
+    border: none;
     display: inline-block;
     background-color: #8a8989;
     color: rgb(0, 0, 0);
-    border-radius: 10px;
+    border: none;
+    border-radius: 25px;
     text-decoration: none;
   }
   .btn-agregar-volver {
     font-family: Arial;
-    margin: 10px;
-    font-size: 15px;
+    font-size: 22px;
+    margin-top: 10px;
     padding-top: 5px;
     padding-right: 30px;
     padding-bottom: 5px;
@@ -57,9 +57,13 @@
     background-color: #8a8989;
     color: rgb(0, 0, 0);
     border: none;
-    border-radius: 10px;
+    border-radius: 25px;
     text-decoration: none;
   }
   .btn-agregar:hover {
     background: #2b2b2b;
+  }
+
+  .botones {
+    margin-top: 15rem;
   }

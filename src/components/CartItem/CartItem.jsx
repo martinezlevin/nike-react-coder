@@ -21,7 +21,7 @@ const CartItem = ({ id, name, quantity, price }) => {
       <div className="subtot-eliminar">
         <p className="info-item">Subtotal: ${price * quantity}</p>
         <button className="boton-eliminar" onClick={() => handleRemove(id)}>
-          Eliminar
+        ✕
         </button>
       </div>
     </div>
